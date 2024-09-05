@@ -11,6 +11,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 
 export default defineConfig({
+  base: '/calculate-currency',
   plugins: [
     VueRouter({
       dts: 'src/typed-router.d.ts',

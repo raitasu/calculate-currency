@@ -7,14 +7,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    AppFooter: typeof import('./components/AppFooter.vue')['default']
     AppHeader: typeof import('./components/AppHeader.vue')['default']
-    ConvertPage: typeof import('./pages/ConvertPage.vue')['default']
-    MainPage: typeof import('./pages/MainPage.vue')['default']
-    PageNotFound: typeof import('./pages/PageNotFound.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    SelectCurrencies: typeof import('./components/SelectCurrencies.vue')['default']
     SelectCurrency: typeof import('./components/SelectCurrency.vue')['default']
   }
 }
